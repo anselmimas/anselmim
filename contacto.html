@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Contacto | Anselmi+</title>
+    <link rel="stylesheet" href="styles.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <a class="brand" href="index.html">
+        <span class="brand-type">anselmi</span><span class="brand-plus">+</span>
+      </a>
+      <nav>
+        <a href="index.html">Inicio</a>
+        <a href="proyectos.html">Proyectos</a>
+        <a class="active" href="contacto.html">Contacto</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero hero-compact">
+        <div>
+          <div class="badge">Hablemos</div>
+          
+        </div>
+      </section>
+
+      <section class="panel" id="formulario" data-reveal>
+        <p class="section-caption">Contacto</p>
+        <div class="grid-2">
+          <form class="form">
+            <input type="text" name="nombre" placeholder="Nombre y apellido" required />
+            <input type="email" name="email" placeholder="Correo corporativo" required />
+            <input type="text" name="empresa" placeholder="Empresa" />
+            <select name="servicio">
+              <option value="">Tipo de proyecto</option>
+              <option>Stand internacional</option>
+              <option>Roadshow / Pop-up</option>
+              <option>Centro de experiencias permanente</option>
+              <option>Producción de contenido inmersivo</option>
+            </select>
+            <textarea name="mensaje" placeholder="Cuéntanos objetivos, fechas y KPIs"></textarea>
+            <button class="btn btn-primary" type="submit">Enviar brief</button>
+          </form>
+      
+          </div>
+        </div>
+      </section>
+
+      <section class="panel" style="margin-top: 2.5rem" data-reveal>
+        <p class="section-caption">Preguntas frecuentes</p>
+        <div class="grid-2">
+          <article>
+            <h3>¿Cuál es el tiempo de entrega?</h3>
+            <p>Iniciamos en 10 días hábiles promedio desde la aprobación del concepto.</p>
+          </article>
+          <article>
+            <h3>¿Manejan producción sustentable?</h3>
+            <p>Trabajamos madera certificada, aluminio reciclado y reutilización de componentes.</p>
+          </article>
+          <article>
+            <h3>¿Cómo se gestiona la data?</h3>
+            <p>Nuestras integraciones cumplen SOC2 y GDPR. Entregamos reportes seguros.</p>
+          </article>
+          <article>
+            <h3>¿Pueden operar eventos corporativos?</h3>
+            <p>Sí, diseñamos keynotes, hospitality y activaciones internas.</p>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <section>
+        <p>© 2025 · Anselmi+</p>
+        <div class="footer-links">
+          <a href="proyectos.html">Casos</a>
+          <a href="contacto.html">Contactar</a>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>
